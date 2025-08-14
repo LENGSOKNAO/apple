@@ -6,6 +6,11 @@ import TextColor from "../contexts/TextColor";
 import Btnwh from "../contexts/Btnwh";
 import Btnbule from "../contexts/Btnbule";
 
+// Import images from src/assets
+import taImg from "../assets/image/ta.jpg";
+import md1Img from "../assets/image/md1.jpg";
+import small1Img from "../assets/image/small1.jpg";
+
 const data = [
   {
     name: "MacBook Air",
@@ -13,9 +18,9 @@ const data = [
     link: "Buy",
     dec: "Sky blue color.",
     dec2: "Sky high performance with M4.",
-    image: "/src/assets/image/ta.jpg",
-    mdImage: "src/assets/image/md1.jpg",
-    smallImage: "src/assets/image/small1.jpg",
+    image: taImg,
+    mdImage: md1Img,
+    smallImage: small1Img,
     text: "Built for Apple Intelligence",
   },
 ];
@@ -25,13 +30,13 @@ const Banner = () => {
     <section>
       <div className="relative">
         {data.map((e, i) => (
-          <div className="">
+          <div key={i}>
             <BannerImage
               image={e.image}
               mdImage={e.mdImage}
               smallImage={e.smallImage}
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-between  py-17 ">
+            <div className="absolute inset-0 flex flex-col items-center justify-between py-17">
               <div className="text-center">
                 <MainNameBanner name={e.name} />
                 <Dec text={e.dec} text2={e.dec2} />
