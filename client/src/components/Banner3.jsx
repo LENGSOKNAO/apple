@@ -8,9 +8,9 @@ const data = [
     link: "Shop",
     dec: "Sky blue color.",
     dec2: "Sky high performance with M4.",
-    image: "src/assets/image/3.jpg",
-    mdImage: "src/assets/image/md3.jpg",
-    smallImage: "src/assets/image/small3.jpg",
+    image: "src/assets/3.jpg",
+    mdImage: "src/assets/md3.jpg",
+    smallImage: "src/assets/small3.jpg",
     text: "Built for Apple Intelligence",
   },
 ];

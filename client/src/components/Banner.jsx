@@ -3,13 +3,8 @@ import BannerImage from "../contexts/BannerImage";
 import MainNameBanner from "../contexts/MainNameBanner";
 import Dec from "../contexts/Dec";
 import TextColor from "../contexts/TextColor";
-import Btnwh from "../contexts/Btnwh";
 import Btnbule from "../contexts/Btnbule";
-
-// Import images from src/assets
-import taImg from "../assets/image/ta.jpg";
-import md1Img from "../assets/image/md1.jpg";
-import small1Img from "../assets/image/small1.jpg";
+import Btnwh from "../contexts/Btnwh";
 
 const data = [
   {
@@ -18,9 +13,9 @@ const data = [
     link: "Buy",
     dec: "Sky blue color.",
     dec2: "Sky high performance with M4.",
-    image: taImg,
-    mdImage: md1Img,
-    smallImage: small1Img,
+    image: "src/assets/ta.jpg",
+    mdImage: "src/assets/md1.jpg",
+    smallImage: "src/assets/small1.jpg",
     text: "Built for Apple Intelligence",
   },
 ];
@@ -30,13 +25,13 @@ const Banner = () => {
     <section>
       <div className="relative">
         {data.map((e, i) => (
-          <div key={i}>
+          <div className="">
             <BannerImage
               image={e.image}
               mdImage={e.mdImage}
               smallImage={e.smallImage}
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-between py-17">
+            <div className="absolute inset-0 flex flex-col items-center justify-between  py-17 ">
               <div className="text-center">
                 <MainNameBanner name={e.name} />
                 <Dec text={e.dec} text2={e.dec2} />
