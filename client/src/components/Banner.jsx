@@ -2,9 +2,9 @@ import React from "react";
 import BannerImage from "../contexts/BannerImage";
 import MainNameBanner from "../contexts/MainNameBanner";
 import Dec from "../contexts/Dec";
+import BtnBlue from "../contexts/BtnBlue";
+import BtnWhite from "../contexts/BtnWhite";
 import TextColor from "../contexts/TextColor";
-import Btnbule from "../contexts/Btnbule";
-import Btnwh from "../contexts/Btnwh";
 
 const data = [
   {
@@ -13,9 +13,9 @@ const data = [
     link: "Buy",
     dec: "Sky blue color.",
     dec2: "Sky high performance with M4.",
-    image: "src/assets/ta.jpg",
-    mdImage: "src/assets/md1.jpg",
-    smallImage: "src/assets/small1.jpg",
+    image: "src/assets/image/1.jpg",
+    mdImage: "src/assets/image/md1.jpg",
+    smallImage: "src/assets/image/small1.jpg",
     text: "Built for Apple Intelligence",
   },
 ];
@@ -36,8 +36,8 @@ const Banner = () => {
                 <MainNameBanner name={e.name} />
                 <Dec text={e.dec} text2={e.dec2} />
                 <div className="flex justify-center gap-4 mt-3">
-                  <Btnbule btn={e.more} />
-                  <Btnwh btn={e.link} />
+                  <BtnBlue btn={e.more} />
+                  <BtnWhite btn={e.link} />
                 </div>
               </div>
               <TextColor color={e.text} />
