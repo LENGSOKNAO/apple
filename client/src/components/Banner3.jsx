@@ -1,10 +1,5 @@
-import React from "react";
 import BannerImage from "../contexts/BannerImage";
-import MainNameBanner from "../contexts/MainNameBanner";
-import Dec from "../contexts/Dec";
-import BtnBlue from "../contexts/BtnBlue";
-import BtnWhite from "../contexts/BtnWhite";
-import TextColor from "../contexts/TextColor";
+import Btnwh from "../contexts/Btnwh";
 
 const data = [
   {
@@ -56,7 +51,7 @@ const Banner3 = () => {
                     Choose AirPods or <br /> an eligible <br /> accessory
                     <sup className="text-xl">1</sup>
                   </p>
-                  <BtnWhite btn={e.link} />
+                  <Btnwh btn={e.link} />
                 </div>
               </div>
             </div>

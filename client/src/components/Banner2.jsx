@@ -2,9 +2,9 @@ import React from "react";
 import BannerImage from "../contexts/BannerImage";
 import MainNameBanner from "../contexts/MainNameBanner";
 import Dec from "../contexts/Dec";
-import BtnBlue from "../contexts/BtnBlue";
-import BtnWhite from "../contexts/BtnWhite";
 import TextColor from "../contexts/TextColor";
+import Btnbule from "../contexts/Btnbule";
+import Btnwh from "../contexts/Btnwh";
 
 const data = [
   {
@@ -36,8 +36,8 @@ const Banner2 = () => {
                 <MainNameBanner name={e.name} />
                 <Dec text={e.dec} text2={e.dec2} />
                 <div className="flex justify-center gap-4 mt-3">
-                  <BtnBlue btn={e.more} />
-                  <BtnWhite btn={e.link} />
+                  <Btnbule btn={e.more} />
+                  <Btnwh btn={e.link} />
                 </div>
               </div>
               <TextColor color={e.text} />
