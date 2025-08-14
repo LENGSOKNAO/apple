@@ -13,7 +13,7 @@ const data = [
     link: "Buy",
     dec: "Sky blue color.",
     dec2: "Sky high performance with M4.",
-    image: "src/assets/image/ta.jpg",
+    image: "/src/assets/image/ta.jpg",
     mdImage: "src/assets/image/md1.jpg",
     smallImage: "src/assets/image/small1.jpg",
     text: "Built for Apple Intelligence",
