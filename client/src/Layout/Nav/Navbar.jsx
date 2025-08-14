@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className="flex justify-center ">
                       {hoverNav == index && element.listItem && (
                         <div className="">
-                          <div className="bg-[rgba(0,0,0,0.1)] w-screen h-screen absolute inset-0 z-[-5] "></div>
+                          <div className="bg-[rgba(0,0,0,0.1)]  h-screen absolute inset-0 z-[-5] "></div>
                           <div
                             data-aos="fade-down"
                             data-aos-delay="100"
