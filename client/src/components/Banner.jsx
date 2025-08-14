@@ -2,7 +2,7 @@ import React from "react";
 import BannerImage from "../contexts/BannerImage";
 import MainNameBanner from "../contexts/MainNameBanner";
 import Dec from "../contexts/Dec";
-import BtnBlue from "../contexts/btnBlue.jsx";
+import BtnBlue from "../contexts/btnBlue";
 import BtnWhite from "../contexts/btnWhite";
 import TextColor from "../contexts/TextColor";
 
