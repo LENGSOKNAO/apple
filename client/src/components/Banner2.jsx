@@ -13,9 +13,9 @@ const data = [
     link: "Shop iPhone",
     dec: "Meet the iPhone 16 family.",
     dec2: "",
-    image: "/image/2.jpg",
-    mdImage: "/image/md2.jpg",
-    smallImage: "/image/small2.jpg",
+    image: "src/assets/image/2.jpg",
+    mdImage: "src/assets/image/md2.jpg",
+    smallImage: "src/assets/image/small2.jpg",
     text: "Built for Apple Intelligence",
   },
 ];
